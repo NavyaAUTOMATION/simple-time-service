@@ -32,7 +32,7 @@ Health Check
 curl http://localhost:3000/health
 
 Pulling from Docker Hub
-docker pull yourusername/simple-time-service:latest
+docker pull <yourusername>/simple-time-service:latest
 
 Python 3.11 with Flask
 Multi-stage Docker build for minimal image size (~120MB)
