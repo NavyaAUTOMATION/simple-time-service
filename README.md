@@ -11,6 +11,10 @@ A minimal Python microservice that returns current timestamp and visitor IP in J
 
 ## Prerequisites
 - Docker installed
+ sudo systemctl start docker
+
+## Pulling from Docker Hub
+docker pull <yourusername>/simple-time-service:latest
 
 ## Building the Container
 ```bash
@@ -30,9 +34,6 @@ Example Output
 
 Health Check
 curl http://localhost:3000/health
-
-Pulling from Docker Hub
-docker pull <yourusername>/simple-time-service:latest
 
 Python 3.11 with Flask
 Multi-stage Docker build for minimal image size (~120MB)
